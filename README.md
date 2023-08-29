@@ -4,8 +4,18 @@
 HTML태그 <텍스트 태그>
 " = &quot;
 ' = &apos;
-< = &it;
+< = &lt;
 > = &gt;
 & = &amp;
 
 공백 = &nbsp;
+
+
+h1 ~ h6 = 글자 크기 속성
+br = 줄바꿈 속성
+hr = 구분선 속
+
+
+-
+`아래의 내용처럼 출력하시오`
+![image](https://github.com/Bluebla1004/Screen_implementation-2/assets/73012354/d697b94b-17dd-4b3b-9290-cabbc8be4859)
