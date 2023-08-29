@@ -99,9 +99,11 @@ address = 문서나 회사와 연락할 수 있는 연락망을 넣는 태그
     └ href="mailto~~" = 이메일 바로보내기
     └ + target = "blank" = 새창으로 열기
     └ + download  = 다운로드 하기
+    └ + title = "마우스커서가 링크에 닿으면 해당문자를 표"
 
-<a href="https://naver.com">네이버로</a>
-<a href="./page.html">페이지로</a>
+
+<a href="https://naver.com"target = blank>네이버로</a>
+<a href="./page.html" title="아아아아아아 귀차나아">페이지로</a>
 # 현재 메인파일에 page.html이없을경우 흰백지가나온다
 
 <a href="./image.jpg" download>이미지 다운</a>
