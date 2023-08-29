@@ -30,7 +30,7 @@ hr = 구분선 태그
 
 a = 하이퍼 링크   
   └ href="이동할 링크"   
-
+address = 문서나 회사와 연락할 수 있는 연락망을 넣는 태그 
 
 ----
 `아래의 내용처럼 출력하시오`
@@ -96,8 +96,31 @@ a = 하이퍼 링크
 
 ```html
 # <a href="링크">표시할 글시</a>
+    └ href="mailto~~" = 이메일 바로보내기
+    └ + target = "blank" = 새창으로 열기
+    └ + download  = 다운로드 하기
 
 <a href="https://naver.com">네이버로</a>
 <a href="./page.html">페이지로</a>
 # 현재 메인파일에 page.html이없을경우 흰백지가나온다
+
+<a href="./image.jpg" download>이미지 다운</a>
+
+<address>
+    <a href="mailto:blue__bla@naver.com" target = blank>blue__bla@naver.com</a>
+</address>
 ```
+
+----
+`이미지를 불러오는 코드를 만드시오`
+
+```html
+# <img src="이미지 위치" alt="이미지가 안나올경우의 문자">
+    └ + width = "이미지 크기"
+
+<img src="./debug.png" alt="" width="500">
+
+이미지를 클릭시 이동하는법
+<a href="이동할링크"><img src="이미지 위치" alt=""></a>
+```
+
