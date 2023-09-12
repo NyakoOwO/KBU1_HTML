@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, td,th {
+            border: 1px solid black; 
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="./과제2-2.html">
+        <h1 style="text-align: center;">Charming Jo Music Video</h1>
+        <table style="margin: auto; text-align: center;">
+            <col style="width: 80px">
+            <colgroup span="2" style="width: 350px;">
+            <tr>
+                <th>선택</th>
+                <th>썸네일</th>
+                <th>음악이름</th>
+            </tr>
+            <tr>
+                <td><input type="radio" name="MV" value="LikeThat"></td>
+                <td><img src="./Like That.jpg" width="400px"></td>
+                <td>Like That</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="MV" value="SuperSick"></td>
+                <td><img src="./Super Sick.jpg" width="400px"></td>
+                <td>Super Sick</td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="submit" value="선택"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
