@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .h1{
+            font-size: 50px;
+            color: green;
+        }
+        #description{
+            font-size: 30px;
+            color: blue;
+        }
+        .headHr{
+            border: 5px solid black;
+        }
+
+
+        p{
+            font-size: 30px;
+        }
+        .list{
+            font-size: 20px;
+            font-style: italic;
+            color: red;
+        }
+
+        .mline{
+            border: 0.6px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="h1">제 1회 음식 축제</h1>
+    <hr class="headHr">
+    <p id="description">각 나라의 다양한 음식을 체험해보세요!</p>
+    <hr style="border: 2px solid black;">
+    <p>*** 참가국 ***</p>
+    <ul class="list">
+        <li>한국</li>
+        <li>미국</li>
+        <li>일본</li>
+    </ul>
+    <hr style="border: 2px solid black;">
+    <p>*** 장소와 일시 ***</p>
+    <ul class="list">
+        <li>일시: 2023년 9월 26일</li>
+        <li>장소: 경기도 남양주시</li>
+    </ul>
+    
+    
+    <hr class="mline">
+
+
+    <style>
+        .naver[href]{
+            color: aqua;
+            display: block;
+        }
+        .naver[target="blank"]{
+            color: red;
+            display: block;
+        }
+    </style>
+    <a href="https://naver.com" id="title" class="naver">Naver</a>
+    <a href="https://naver.com" target="blank" class="naver">Naver</a>
+
+
+
+    <hr class="mline">
+    
+    
+    <style>
+        [class="green"] {
+            color: green;
+        }
+        [class="blue"] {
+            color: blue;
+        }
+    </style>
+
+    <h1 class="green">클래스 선택자</h1>
+    <p class="blue">class1</p>
+    <p class="blue" id="red">class2</p>
+
+
+
+    <hr class="mline">
+    
+    
+    <style>
+        @import url(class.css);
+        hr{
+            border: 2px solid orange;
+        }
+        a{
+            font-size: 30px;
+            color: blue;
+        }
+    </style>
+
+    <hr>
+    <p style="font-size: 30px; color: purple;">언어의 특징 알아보기</p>
+
+    <hr>
+    <ul>
+        <li><a href="#">html</a></li>
+        <li><a href="#" target="_blank">css</a></li>
+        <li><a href="#" target="_blank">javascript</a></li>
+    </ul>
+
+    <hr class="mline">
+
+    <style>
+        .singer{
+            color: red;
+        }
+        .tv{
+            color: blue;
+        }
+
+        span{
+            color: violet;
+        }
+    </style>
+    <div class="singer">
+        <p>가수</p>
+        <p><span>가수</span>를 소개하는 페이지 입니다</p>
+    </div>
+    <div class="tv">
+        <p>tv</p>
+        <p><span>tv</span>를 소개하는 페이지 입니다</p>
+    </div>
+
+
+    <hr class="mline">
+
+    <style>
+        .p, #title{
+            color: red;
+        }
+        <!--자식 선택자-->
+        p>strong{ 
+            color:aqua
+        }
+    </style>
+
+
+    <h1 id="title">group 선택자</h1>
+    <p class="p">여러 선택자 그룹 지움</p>
+
+
+    <h1 id="title">자식 선택자</h1>
+    <p>선택1</p>
+    <p><strong>선택2</strong></p>
+
+
+    <hr class="mline">
+
+    <style>
+        div p{
+            color:red
+        }
+    </style>
+
+    <div>
+        <p>html1</p>
+        <ul>
+            <li><p>html2</p></li>
+            <li><p>html3</p></li>
+            <li>html4</li>
+        </ul>
+    </div>
+
+    <style>
+        h1 + h2{
+            color: red;
+        }
+    </style>
+
+    <h1>html1</h1>
+    <h2>html2</h2>
+    <h2>html3</h2>
+
+    <style>
+        .h1-1 ~ h2{
+            color: red;
+        }
+    </style>
+
+    <h2>html1</h2>
+    <h1 class="h1-1">html2</h1>
+    <h2>html3</h2>
+    <h2>html4</h2>
+
+
+
+    <hr class="mline">
+
+    <style>
+        .text:link{
+            color: blue;
+        }
+        .text:visited{
+            color: red;
+        }
+        .text:hover{
+            color: aqua;
+            font-size: 40px;
+        }
+        .text:active{
+            color: black;
+        }
+    </style>
+
+    <a href="#" class="text">자유게시판</a>
+</body>
+</html>
