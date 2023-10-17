@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:first-child { /**p 태그가 처음부분일경우**/
+            color: #ff0000;
+        }
+        p:nth-child(2){ /**p 태그가 2번쨔부분일경우**/
+            color: green;
+            font-size: 2em;
+        }
+        p:nth-child(3){ /**p 태그가 2번쨔부분일경우**/
+            color: blue;
+            font-size: 3em;
+        }
+        p:nth-child(4){ /**p 태그가 2번쨔부분일경우**/
+            color: violet;
+            font-size: 4em;
+        }
+        p.box{
+            color: rgb(255, 0, 0);
+        }
+        p#title {
+            color: green;
+        }
+        div:active>button{ /** div 안에있는 버튼 **/
+            color: lightblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <p>html1</p>
+    <p>html2</p>
+    <div>
+        <h1>html1</h1>
+        <p>html3</p>
+        <p>html4</p>
+        <p>html5</p>
+        <p>html6</p>
+    </div>
+    <p id="title">programming</p>
+    <div>
+        <p class="box">html</p>
+        <span class="box">css</span>
+        <p>javascript</p>
+        <button>click</button>
+    </div>
+
+    <ul style="list-style: none;">
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul>
+    
+</body>
+</html>
