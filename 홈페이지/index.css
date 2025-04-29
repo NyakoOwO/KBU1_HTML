@@ -1,0 +1,162 @@
+body {
+    background-color: #2a2c30;
+    color: white;
+}
+
+/* 링크 색갈 및 밑줄 제거 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    margin-top: 300px;
+}
+
+/*  맨위 아이콘  */
+.icon {
+    display: inline-flex;
+
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-top: 8px solid white;
+    border-left: 8px solid rgb(213, 213, 213);
+    border-right: 8px solid rgb(176, 176, 176);
+    border-bottom: 8px solid rgb(126, 126, 126);
+}
+
+/***************************************/
+
+
+/*  리스트 부분  */
+
+.list-top input[type=radio] {
+	display: none;
+}
+
+.Div-page > div {
+	display: none;
+}
+
+label {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#list-button-1:checked ~ .Div-page div:nth-child(1),
+#list-button-2:checked ~ .Div-page div:nth-child(2),
+#list-button-3:checked ~ .Div-page div:nth-child(3),
+#list-button-4:checked ~ .Div-page div:nth-child(4),
+#list-button-5:checked ~ .Div-page div:nth-child(5),
+#list-button-6:checked ~ .Div-page div:nth-child(6) {
+	display: block;
+}
+
+/**********************************************/
+
+/* 페이지 부분 */
+.Div-page {
+    display: inline-table;
+}
+
+.text-top {
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    padding-top: 10px;
+    border-top: 1px solid white;
+}
+
+/* 내부 타이틀 부분 */
+
+.logo-title {
+    float: left;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.logo-text {
+    margin-bottom: 0px;
+    display: inline-flex;
+}
+
+/* 내부 리스트내용 부분 */
+.page-list {
+    list-style: none;
+    display: inline-block;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icon-img {
+    width: 30px;
+    height: 30px;
+}
+
+/****************************/
+
+
+
+
+/************************/
+
+.naver {
+    padding: 20px;
+    border-top: 5px solid lightgreen;
+    border-left: 5px solid rgb(108, 177, 108);
+    border-right: 5px solid rgb(97, 164, 97);
+    border-bottom: 5px solid rgb(67, 115, 67);
+
+    width: 49%;
+    float:left; 
+    box-sizing: border-box;
+
+    margin-bottom: 20.97px;
+}
+
+.google {
+    padding: 20px;
+    border-top: 5px solid #ea4335;
+    border-left: 5px solid #fbbc05;
+    border-right: 5px solid #34a853;
+    border-bottom: 5px solid #4285f4;
+
+    width: 49%;
+    float:right; 
+    box-sizing: border-box;
+
+    margin-bottom: 20.97px;
+}
+
+.kbu {
+    padding: 20px;
+    border-top: 5px solid #519ff2;
+    border-left: 5px solid #004185;
+    border-right: 5px solid #e14ea6;
+    border-bottom: 5px solid #ec008c;
+
+    width: 49%;
+    float:left; 
+    box-sizing: border-box;
+    margin-bottom: 20.97px;
+}
+
+.web {
+    padding: 20px;
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+
+    width: 49%;
+    float:right; 
+    box-sizing: border-box;
+    margin-bottom: 20.97px;
+}
+
+
+
